@@ -2,5 +2,9 @@
   {
     "role": "user",
     "content": "The deployment failed with the following error from Fly.io:\n\n2025/06/04 15:09:04 error releasing builder: canceled: context canceled\n==> Building image\nWaiting for depot builder...\n\nPlease fix the issue."
+  },
+  {
+    "role": "user",
+    "content": "The deployment failed with the following error from Fly.io:\n\n#10 4.062 error during build:\n#10 4.062 [vite]: Rollup failed to resolve import \"openai\" from \"/app/src/lib/openai.ts\".\n#10 4.062 This is most likely unintended because it can break your application at runtime.\n\nPlease fix the issue."
   }
 ]
